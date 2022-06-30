@@ -47,7 +47,7 @@ const CategoriaDetalhes = ({navigation}) => {
                 <View style={styles.container_externo}>
 
                     <FlatList
-                        data={produto}
+                        data={produto.filter((item) => item.nomeCategoria === nomeCategoria)}
                         horizontal={false}
                         showsVerticalScrollIndicator={false}
                         style={styles.scroll_cards}

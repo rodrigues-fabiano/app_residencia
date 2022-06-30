@@ -27,7 +27,6 @@ const BottomTabNavigator = () => (
       name='HomeTabScreen'
       component={Home}
       options={{
-        tabBarLabel: 'Home',
         tabBarShowLabel: false,
         tabBarIcon: ({ color, size }) => (
           <Icon name='home' color='#7cccbc' type='foundation' size={24} />

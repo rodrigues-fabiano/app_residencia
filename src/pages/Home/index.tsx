@@ -1,7 +1,7 @@
 import { BottomTabBar } from '@react-navigation/bottom-tabs';
 import React, { useState, useEffect, useContext } from 'react';
-import { FlatList, StatusBar, StyleSheet, TouchableOpacity, View } from 'react-native';
-import { Text, Card, Input, Icon, ListItem } from 'react-native-elements';
+import { FlatList, StyleSheet, TouchableOpacity, View } from 'react-native';
+import { Text, Card, Input, Icon } from 'react-native-elements';
 import { ScrollView } from 'react-native-gesture-handler';
 import AxiosInstance from '../../api/AxiosInstance';
 import { CardsCategoria } from '../../components/CardsCategoria/CardsCategoria';

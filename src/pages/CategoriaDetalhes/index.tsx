@@ -1,7 +1,6 @@
 import { NavigationContainer } from '@react-navigation/native';
 import React, { useContext, useEffect, useState } from 'react';
 import { Button, FlatList, StyleSheet, Text, View } from 'react-native';
-import { BorderlessButton } from 'react-native-gesture-handler';
 import { Screen } from 'react-native-screens';
 import AxiosInstance from '../../api/AxiosInstance';
 import { CardsProdutos } from '../../components/CardsProdutos/CardsProdutos';

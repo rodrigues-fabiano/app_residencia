@@ -92,7 +92,6 @@ const Home = ({ navigation }) => {
                     />
                 }
                 placeholderTextColor={'#156e5c'}
-                autoCompleteType={undefined}
             />
 
 

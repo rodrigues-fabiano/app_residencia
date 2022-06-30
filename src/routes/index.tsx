@@ -20,6 +20,7 @@ const BottomTabNavigator = () => (
 
   <TabNavigation.Navigator screenOptions={{
     headerShown: false,
+    tabBarHideOnKeyboard: true,
     tabBarStyle: { backgroundColor: '#156e5c', borderBottomWidth: 0, borderTopWidth: 0, }
   }}>
     <TabNavigation.Screen
@@ -27,11 +28,7 @@ const BottomTabNavigator = () => (
       component={Home}
       options={{
         tabBarLabel: 'Home',
-        tabBarLabelStyle: {
-          color: '#7cccbc',
-          margin: 0,
-          padding: 0,
-        },
+        tabBarShowLabel: false,
         tabBarIcon: ({ color, size }) => (
           <Icon name='home' color='#7cccbc' type='foundation' size={24} />
         )
@@ -41,11 +38,7 @@ const BottomTabNavigator = () => (
       component={Categorias}
       options={{
         tabBarLabel: 'Categorias',
-        tabBarLabelStyle: {
-          color: '#7cccbc',
-          margin: 0,
-          padding: 0,
-        },
+        tabBarShowLabel: false,
         tabBarIcon: ({ color, size }) => (
           <Icon name='magnifying-glass' color='#7cccbc' type='foundation' size={24} />
         )
@@ -55,11 +48,7 @@ const BottomTabNavigator = () => (
       component={Favoritos}
       options={{
         tabBarLabel: 'Favoritos',
-        tabBarLabelStyle: {
-          color: '#7cccbc',
-          margin: 0,
-          padding: 0,
-        },
+        tabBarShowLabel: false,
         tabBarIcon: ({ color, size }) => (
           <Icon name='heart' color='#7cccbc' type='foundation' size={24} />
         )
@@ -69,11 +58,7 @@ const BottomTabNavigator = () => (
       component={Carrinho}
       options={{
         tabBarLabel: 'Carrinho',
-        tabBarLabelStyle: {
-          color: '#7cccbc',
-          margin: 0,
-          padding: 0,
-        },
+        tabBarShowLabel: false,
         tabBarIcon: ({ color, size }) => (
           <Icon name='shopping-cart' color='#7cccbc' type='foundation' size={24} />
         )
